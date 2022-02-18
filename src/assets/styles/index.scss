@@ -1,0 +1,89 @@
+
+html {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+*,
+body {
+  font-family: "Montserrat", "Noto Sans KR";
+}
+#fp-nav {
+  z-index: 1 !important;
+  right: 60px !important;
+  @media (max-width: 1024px) {
+    right: 50px !important;
+  }
+  @media (max-width: 500px) {
+    right: 30px !important;
+  }
+  ul {
+    li {
+      margin: 0 !important;
+    }
+  }
+}
+#fp-nav ul li a span {
+  border-radius: 0 !important;
+  position: relative;
+  z-index: 1;
+  height: 8px !important;
+  width: 8px !important;
+  border: 0;
+  background: #fff  ;
+  margin: 0 !important;
+  transition: all 0.3s !important;
+  left: unset !important;
+  right: 0 !important;
+
+}
+
+#fp-nav ul li a.active span {
+  background-color: #1b0080 ;
+  @media (max-width: 750px) {
+    width: 10px !important;
+  }
+}
+#fp-nav ul li a:hover span {
+  width: 30px !important;
+}
+
+.note {
+  color: #ff9933;
+}
+a[href="#firstPage"] {
+  &.active {
+    span {
+      background-color: #1b0080 !important;
+    }
+  }
+}
+a[href="#secondPage"] {
+  &.active {
+    span {
+      background-color: #99dd6e !important;
+    }
+  }
+}
+a[href="#thirdPage"] {
+  &.active {
+    span {
+      background-color: #99dd6e !important;
+    }
+  }
+}
+a[href="#fourthPage"] {
+  &.active {
+    span {
+      background-color:    #663cc5 !important;
+    }
+  }
+}
+a[href="#fivePage"] {
+  &.active {
+    span {
+      background-color: #99dd6e !important;
+    }
+  }
+}

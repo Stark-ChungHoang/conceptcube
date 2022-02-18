@@ -1,0 +1,168 @@
+{
+    "history": [
+        {
+            "id": 0,
+            "year": "2021",
+            "childrenYears": [
+                {
+                    "id": 0,
+                    "title": "마녀공장 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 1,
+                    "title": "이자녹스 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 2,
+                    "title": "Samsung Galaxy FAN Curator 영상 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 3,
+                    "title": "Cha-pi CHINA TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 4,
+                    "title": "Samsung Galaxy Screensaver 영상 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 5,
+                    "title": "Samsung Galaxy Celeb Live 영상 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 6,
+                    "title": "WWW '검색어를 입력하세요' tvn 드라마 Title 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 7,
+                    "title": "Samsung Galaxy S10 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 8,
+                    "title": "나의 나라 JTBC 드라마 Title 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 9,
+                    "title": "SK홀딩스 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 10,
+                    "title": "신세계 면제점 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 11,
+                    "title": "Chris lee M/V 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 12,
+                    "title": "롯데케미컬 TVC Production",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 13,
+                    "title": "네이버 시리즈 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 14,
+                    "title": "Samsung Galaxy A 국내 및 글로벌 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 15,
+                    "title": "그 외 다수 TVC 영상 제작 및 영화/드라마 타이틀 시퀀스 제작",
+                    "type": "MOTION"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "year": "2020",
+            "childrenYears": [
+                {
+                    "id": 0,
+                    "title": "LG Display Shocase 영상 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 1,
+                    "title": "SSG 켐페일 TVC 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 2,
+                    "title": "Lineage 2M BI 영상 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 3,
+                    "title": "Netflix TV Show \"Kingdom\" Title 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 4,
+                    "title": "Samsung Mobility Showcase 영상 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 5,
+                    "title": "SKT / KT / U+ 통신사 TVC 제작",
+                    "type": "MOTION"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "year": "2019",
+            "childrenYears": [
+                {
+                    "id": 0,
+                    "title": "실무중심의 교육기관 \"루크 아카데미\" 설립",
+                    "type": "ACADEMY"
+                },
+                {
+                    "id": 1,
+                    "title": "삼성 QLED TV 웰컴 비디오 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 2,
+                    "title": "지드래곤 \"Untitle\" M/V 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 3,
+                    "title": "태양 X Lexus TVC 및 M/V 제작",
+                    "type": "MOTION"
+                },
+                {
+                    "id": 4,
+                    "title": "현대 벨로스터 바이럴 영상 제작",
+                    "type": "MOTION"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "year": "2018",
+            "childrenYears": [
+                {
+                    "id": 0,
+                    "title": "루크레이티브 설립",
+                    "type": ""
+                }
+            ]
+        }
+    ]
+}

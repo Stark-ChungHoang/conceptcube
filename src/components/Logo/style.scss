@@ -1,0 +1,18 @@
+.maxius-logo {
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 100px;
+  z-index: 1;
+  color: #222;
+  font-size: 20.5px;
+  font-weight: bold;
+
+  @media (max-width: 1024px) {
+    left: 60px;
+  }
+  @media (max-width: 780px) {
+    left: 50px;
+  }
+
+}

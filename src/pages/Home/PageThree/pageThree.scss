@@ -1,0 +1,152 @@
+@import "../../../assets/styles/variables.scss";
+
+.page-three {
+  height: 100vh;
+  user-select: none;
+  width: 100%;
+  overflow: hidden;
+
+  @media screen and (max-width: 840px) {
+    background-size: cover;
+  }
+
+  .page-three-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+.pageThree-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+}
+  &-content {
+    width: 100%;
+    height: 100%;
+    .item-img {
+      width: 100%;
+      height: 300px;
+      transition: 400ms;
+      padding-top: 30px;
+
+      .img-on {
+        display: none;
+      }
+
+      .img-off {
+        display: inline;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      @media screen and (max-width: 768px) {
+        height: 200px;
+        transition: 400ms;
+        padding-top: 30px;
+
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+
+    .item {
+      background-color: $bgCard;
+      height: 100%;
+      transition: all 500ms ease-in-out;
+      width: 95% !important;
+      position: relative;
+      cursor: pointer;
+      color: $clCard;
+      .desc {
+        font-size: 14.5px;
+        line-height: 1.9;
+        font-family: Noto Sans KR;
+        color: $clCard;
+        padding: 25px 60px 0 20px;
+
+        .content-detail-title {
+          display: none;
+          font-family: Montserrat-SemiBold;
+          padding-bottom: 10px;
+        }
+
+        .content-detail-sub {
+          min-height: 170px;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 13px;
+          line-height: 23px;
+
+          .desc {
+            padding: 25px 20px 0 20px;
+          }
+
+          .content-detail-sub {
+            min-height: 1px;
+          }
+        }
+      }
+
+      transition: transform 800ms ease-out;
+
+      &:hover {
+        width: 395px;
+        height: 106%;
+        transform: translate(0, -25px);
+        transition: transform 800ms ease-out;
+        background-color: $bgCardHover;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        .title,
+        .desc {
+          color:
+            #ccee5d;
+        }
+
+        .img-on {
+          display: inline;
+        }
+
+        .img-off {
+          display: none;
+
+        }
+
+        .content-detail-title {
+          display: block;
+        }
+
+      }
+
+      &-content {
+        padding: 48px 0 48px;
+
+        .title {
+          font-size: 40.5px;
+          line-height: 1;
+          font-weight: 600;
+          padding-left: 21px;
+          font-family: Montserrat-SemiBold;
+          color: $clCard;
+        }
+
+        @media screen and (max-width: 768px) {
+          padding: 25px 0 25px;
+
+          .title {
+            font-size: 30px;
+          }
+        }
+      }
+
+    }
+  }
+}

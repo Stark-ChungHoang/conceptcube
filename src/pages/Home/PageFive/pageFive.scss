@@ -1,0 +1,155 @@
+@import "../../../assets/styles/variables.scss";
+.page-five {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.fifth-container {
+  background-image: url(../../../assets/images/05-bg.png);
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  background-position: 50% 0px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-repeat: no-repeat;
+  font-family: Montserrat-SemiBold;
+  font-weight: 600;
+  @media (max-width: 767.98px) {
+    background-size: unset;
+    background-position: unset;
+  }
+  .fifth-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #deff72;
+    transform: translate(-40%, -40%);
+    h5 {
+      font-size: 110px;
+      line-height: 1.1;
+    }
+    @media screen and (max-width: 1200px) {
+      width: 70%;
+      top: 20%;
+      transform: translate(-50%, -20%);
+      h5 {
+        font-size: 80px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      h5 {
+        font-size: 50px;
+        line-height: 1.4;
+      }
+    }
+  }
+  .color-diff {
+    color: #8e8e8e;
+    font-family: Montserrat-ExtraLight;
+  }
+  .fifth-wrapper {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+    left: 141px;
+    @media screen and (max-width: 1200px) {
+      top: 60%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .block-item {
+      width: 250px;
+      margin-bottom: 50px;
+
+      h3 {
+        font-size: 34px;
+        color: white;
+        margin-bottom: 0;
+        white-space: nowrap;
+        margin-bottom: 12px;
+        margin-left: 5px;
+        font-weight: bold;
+      }
+
+      a {
+        color: #fff;
+        text-align: left;
+        p {
+          font-size: 14px;
+          font-family: Montserrat-ExtraLight;
+          @media screen and (max-width: 600px) {
+            font-size: 13.5px;
+            padding: 7px 0;
+          }
+        }
+      }
+
+      .learn-more {
+        a {
+          visibility: hidden;
+          color: #8e8e8e;
+          padding: 15px 20px;
+          white-space: nowrap;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+
+      .email {
+        transition: 0.2s;
+        position: relative;
+        width: 90%;
+        margin: -6px 0;
+        padding: 0 5%;
+        height: 35px;
+        line-height: 35px;
+        cursor: pointer;
+
+        &:hover {
+          background: #fff;
+          p {
+            color: #8e8e8e;
+          }
+          .mail-icon {
+            opacity: 1;
+
+            p {
+              visibility: visible;
+            }
+          }
+        }
+
+        .mail-icon {
+          padding: 0 3px 3px;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          width: 15px;
+          height: 15px;
+          opacity: 0;
+          transition: 0.3s;
+          p {
+            font-size: 20px;
+            line-height: 15px;
+          }
+        }
+      }
+      @media screen and (max-width: 600px) {
+        h3 {
+          font-size: 22.5px;
+        }
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+

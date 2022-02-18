@@ -1,0 +1,152 @@
+@import "../../../assets/styles/variables.scss";
+.page-one {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../../assets/images/img-section-1.png");
+  color: $clSectionOne;
+  background-size: cover;
+  overflow: hidden;
+  &-container {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    color: $clSectionOne;
+    text-align: left;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    z-index: 5;
+    .logo {
+      position: absolute;
+      top: 81px;
+      left: 8%;
+      width: 114px;
+      height: 19px;
+      cursor: pointer;
+    }
+    .about-project {
+      position: absolute;
+      top: 80px;
+      right: 175px;
+      font-size: 13px;
+      line-height: 1.5;
+      font-weight: 500;
+      letter-spacing: 0.8px;
+      @media screen and (max-width: 500px) {
+        right: 30px;
+        top: 15%;
+      }
+    }
+    .intro-company {
+      font-size: 14px;
+      line-height: 2;
+      position: absolute;
+      left: 8%;
+      bottom: 77px;
+      z-index: 66;
+      letter-spacing: 0.8px;
+      font-family: Montserrat-Medium;
+    }
+
+    .inner-content {
+      width: 100%;
+      height: auto;
+      .first_ {
+        position: absolute;
+        left: 8%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 999;
+        .md-text {
+          font-family: Montserrat-SemiBold;
+          font-size: 200.5px;
+          font-weight: 600;
+          line-height: 1.1;
+          transition: all 0.2s;
+          color: $clSectionOne;
+          @media screen and (max-width: 1530px) {
+            font-size: 150px;
+          }
+          @media screen and (max-width: 1200px) {
+            font-size: 100px;
+          }
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .first_ {
+          left: 50%;
+          transform: translate(-50%, -50%);
+          .md-text {
+            font-size: 70px;
+            line-height: 70px;
+          }
+        }
+      }
+
+      @media (max-width: 768px) {
+        .first_ {
+       
+          .logo {
+            max-width: 100px;
+            top: 10px;
+            > img {
+              width: 100%;
+            }
+          }
+
+          .md-text {
+            font-size: 50px;
+            line-height: 50px;
+          }
+
+        }
+      }
+
+      @media (max-width: 568px) {
+        .first_ {
+
+          .md-text {
+            font-size: 50px;
+            line-height: 1.5;
+            margin: 0;
+          }
+        }
+      }
+
+      @media (max-width: 400px) {
+        .first_ {
+       
+
+          .md-text {
+            font-size: 35px;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      @media (max-width: 320px) {
+        .first_ {
+
+          .md-text {
+            font-size: 30px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes animation01 {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}
