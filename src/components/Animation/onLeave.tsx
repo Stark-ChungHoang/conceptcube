@@ -68,6 +68,8 @@ const onLeave = (origin: any, destination: any, direction: any) => {
       break;
     case 3:
       gsap.to(".pageThree-main", { visibility: "hidden" });
+      gsap.to(".fifth-title", { visibility: "hidden",   duration: 1,
+      ease: "power4.out", });
       gsap.to(".page-three-content", {
         visibility: "hidden",
         duration: 1,
